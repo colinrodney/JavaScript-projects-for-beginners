@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Lato' ;
+	font-family: 'Roboto';
+	font-family: 'Raleway';
+}
+
+:root{
+	background: #091534;
+	font-size: 1.5em;
+}
+
+#enterMsg{
+	text-align: center;
+	width: 75%;
+	height: 75vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	border: medium solid #B8B8B8;
+	background: #DBE5FF;
+}
+
+#messageInputField{
+	text-align: center;
+	font-size: 1em;
+	width: 70%;
+	height: 10vh;
+		
+}
+#submitButton{
+	display: block;
+	width: 50%;
+	height: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	font-size: 1em;
+}
+
+#lastMsg{
+	border: thin solid black;
+	height: 5vh;
+	width: 70%;
+	margin: auto;
+}
+
