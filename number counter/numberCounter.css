@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+:root{
+	background: #495054;
+	font-size: 2em;
+	font-family: 'Kalam' ;
+	font-family: 'Prata' ;
+	font-family: 'Neuton';
+}
+
+.wrapper{
+
+	background: #707a7e;
+	width: 65%;
+	height: 65vh;
+	border: thin solid purple;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15vh;
+	text-align: center;
+}
+
+.buttons{
+	border-radius: 10%;
+	background: blue;
+	color: white;
+	width: 50%;
+	height: 10vh;
+	display: block;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Neuton';
+}
