@@ -10,13 +10,19 @@
 	font-size: 1.5em;
 }
 
+html,body,.container{
+	height: 100%;
+	width: 100%;
+}
+
 #enterMsg{
 	text-align: center;
 	width: 75%;
-	height: 75vh;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5%;
+	height: 90%;
+/* 	margin-left: auto; */
+/* 	margin-right: auto; */
+/* 	margin-top: 5%; */
+	margin: 30px auto;
 	border: medium solid #B8B8B8;
 	background: #DBE5FF;
 }
@@ -26,8 +32,8 @@
 	font-size: 1em;
 	width: 70%;
 	height: 10vh;
-		
 }
+
 #submitButton{
 	display: block;
 	width: 50%;
@@ -38,10 +44,15 @@
 	font-size: 1em;
 }
 
-#lastMsg{
-	border: thin solid black;
-	height: 5vh;
+#submitButton:hover{
+	background: #091534;
+	color: white;
+}
+
+
+#Msg{
+	border: thin dashed darkred;
+	height: auto;
 	width: 70%;
 	margin: auto;
 }
-

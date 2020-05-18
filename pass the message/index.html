@@ -3,25 +3,29 @@
 <head>
 	<title>Pass The Message Project</title>
 	<link rel="stylesheet" type="text/css" href="passTheMessage.css">
-	
-	<!--Fonts-->
+
+	<!--Google Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto&display=swap" rel="stylesheet">
+
+	<!--JQUERY CDN-->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 	<div class="container">
-		<div id="enterMsg">
+		<!--Send Message-->
+		<section id="enterMsg">
 			<h3>Send a Message:</h3>
-			<input id="messageInputField" type="text" name="message" 			placeholder="Enter Message:">
+			<input id="messageInputField" type="text" name="message" placeholder="Enter Message:">
 			<button id="submitButton" type="button">Send Message</button>
-			<div id="lastMsgHeader">
-				<h3>Last Sent Message:</h3>
-			</div>
-			<div id="Msg">
-				<p id="lastMsg"></p>
-			</div>
-		</div>
-		</div>
+			<!--Last Sent Message-->
+			<section id="lastMsgHeader">
+				<h3>Last Sent Message Display:</h3>
+				<div id="Msg"></div>
+			</section>
+		</section>
 	</div>
+
+	<!--LOCAL JavaScript-->
 	<script type="text/javascript" src="passTheMessage.js"></script>
 </body>
 </html>

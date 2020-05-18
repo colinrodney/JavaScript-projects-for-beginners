@@ -1,8 +1,16 @@
+//JQUERY:
+
+$(document).ready(function(){
+	//$("#enterMsg").hide();
+	//$("#enterMsg").fadeIn();
+});
+
+
 //TRIGGER "SEND MESSAGE" BUTTON @ ENTER BUTTON KEYPRESS
 var input = document.getElementById("messageInputField");
 console.log(input);
 
-/* trigger "enterButton" function when user presses a key @ keyboard in input
+/* trigger "enterButton" function when user presses AND releases the enter key @ keyboard in input
 field*/
 input.addEventListener("keyup",enterButton)
 
@@ -19,17 +27,14 @@ document.getElementById("submitButton").addEventListener("click", messageHandler
 
 // messageHandler function
 function messageHandler(){
-	var userInput = document.getElementById("messageInputField").value
-	
-	document.getElementById("lastMsg").innerHTML = userInput
-	
+	var userInput = document.getElementById("messageInputField").value;
+
+	document.getElementById("Msg").textContent = userInput;
+
 	//clear message from input field
-	document.getElementById("messageInputField").value = ""
-}
+	document.getElementById("messageInputField").value = "";
+};
 
-// clear enter message field @ mouse click:
-
-
-
-
-
+// add maxlength attribute to text input messageInputField
+input.setAttribute("maxlength","140");
+input.setAttribute("placeholder","Enter Message: 140 char max");
